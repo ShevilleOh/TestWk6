@@ -14,8 +14,8 @@ const Login = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log("button clicked");
-        console.log(email, password);
+        alert(`${email} logined`);
+
     };
 
     return (

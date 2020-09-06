@@ -17,8 +17,8 @@ const Register = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log("button clicked");
-        console.log(name, email, password);
+        alert(`${name} registered`);
+
     };
 
     return (
