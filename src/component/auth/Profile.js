@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import placeholder from "../../img/placeholder.png";
 
 const Profile = () => {
@@ -14,7 +14,7 @@ const Profile = () => {
                         </p>
                         <div className="container browse-outer">
                             <div className="container browse-profile-picture">
-                                <img src={placeholder} class="rounded float-left" class="img-thumbnail" />
+                                <img src={placeholder} class="rounded float-left"/>
                             </div>
                             <div className="container browse-profile-summary">
                                 <h1 className="display-5 browse-name">

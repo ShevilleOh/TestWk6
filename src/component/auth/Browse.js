@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import placeholder from './../../img/placeholder.png';
 import placeholder2 from './../../img/placeholder2.png';
 
@@ -18,7 +18,7 @@ const Browse = () => {
 
                             <div className="container browse-inner">
                                 <div className="container browse-profile-picture">
-                                    <img src={placeholder} class="rounded float-left" class="img-thumbnail"/>
+                                    <img src={placeholder} class="rounded float-left"/>
                                 </div>
                                 <div className="container browse-profile-summary">
                                     <h1 className="browse-name">
@@ -38,7 +38,7 @@ const Browse = () => {
                             </div>
                             <div className="container browse-inner">
                                 <div className="container browse-profile-picture">
-                                    <img src={placeholder2} class="rounded float-left" class="img-thumbnail"/>
+                                    <img src={placeholder2} class="rounded float-left"/>
                                 </div>
                                 <div className="container browse-profile-summary">
                                     <h1 className="browse-name">
@@ -55,7 +55,6 @@ const Browse = () => {
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
