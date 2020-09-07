@@ -25,7 +25,7 @@ const Login = () => {
                     <div className="col-mid-8 m-auto">
                         <h1 className="display-4 text-center">Login</h1>
                         <p className={"lead text-center"}>
-                            Login to your DevConnector account
+                            Login to your DevConnect account and continue flexing!
                         </p>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">

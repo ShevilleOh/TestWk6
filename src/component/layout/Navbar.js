@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
             <div className="container">
                 <Link className="navbar-brand" to="/">
-                    Control Alt Elite
+                    Ctrl Alt Elite
                 </Link>
                 <button
                     className="navbar-toggler"
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link className="nav-link" to="/profiles">
                             {' '}
-                            Profiles
+                            Browse Profiles
                         </Link>
                     </li>
                 </ul>

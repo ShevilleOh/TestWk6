@@ -28,7 +28,7 @@ const Register = () => {
                     <div className="col-mid-8 m-auto">
                         <h1 className="display-4 text-center">Sign Up</h1>
                         <p className={"lead text-center"}>
-                            Create your EliteConnector account
+                            Create your EliteConnect account
                         </p>
                         <form onSubmit={handleSubmit}>
                             <div className="form-group">
@@ -51,8 +51,7 @@ const Register = () => {
                                     onChange={handleChange ('email')}
                                 />
                                 <small className="form-text text-muted">
-                                    This site uses Gravatar so if you want a profile image,
-                                    use a Gravatar email
+                                    This site uses Gravatar
                                 </small>
                             </div>
                             <div className="form-group">
