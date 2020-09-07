@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
-import { Link } from "react-router-dom";
 import placeholder from "../../img/placeholder.png";
-
 
 const Profile = () => {
 
@@ -13,11 +10,11 @@ const Profile = () => {
                     <div className="col-mid-8 m-auto">
                         <h1 className="display-4 text-center">Anuja Nautreel's Flex page</h1>
                         <p className={"lead text-center"}>
-                            "Never fear, for I is here"
+                            "Never fear, for I is here" Hackers(1995)
                         </p>
                         <div className="container browse-outer">
                             <div className="container browse-profile-picture">
-                                <img src={placeholder}/>
+                                <img src={placeholder} class="rounded float-left" class="img-thumbnail" />
                             </div>
                             <div className="container browse-profile-summary">
                                 <h1 className="display-5 browse-name">

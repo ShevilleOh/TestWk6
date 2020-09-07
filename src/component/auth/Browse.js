@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
-import { Link } from "react-router-dom";
 import placeholder from './../../img/placeholder.png';
 import placeholder2 from './../../img/placeholder2.png';
 
@@ -11,10 +9,11 @@ const Browse = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <p className="lead">
+                        <h1 className="display-4 text-center">
                             {' '}
                             Browse to your heart's content!
-                        </p>
+                        </h1>
+                        <p/>
                         <div className="container browse-outer">
 
                             <div className="container browse-inner">
