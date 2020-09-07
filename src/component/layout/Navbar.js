@@ -21,14 +21,26 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="mobile-nav">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/profiles">
+                        <Link className="nav-link" to="/developer">
                             {' '}
-                            Browse Profiles
+                            Developers
                         </Link>
                     </li>
                 </ul>
 
                 <ul className="navbar-nav ml-auto">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/browse">
+                            {' '}
+                            Browse Profiles
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/profile">
+                            {' '}
+                            My Profile
+                        </Link>
+                    </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/register">
                             {' '}
