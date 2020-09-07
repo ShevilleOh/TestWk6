@@ -18,7 +18,7 @@ const Browse = () => {
 
                             <div className="container browse-inner">
                                 <div className="container browse-profile-picture">
-                                    <img src={placeholder} class="rounded float-left"/>
+                                    <img src={placeholder} class="rounded float-left" alt="description of image"/>
                                 </div>
                                 <div className="container browse-profile-summary">
                                     <h1 className="browse-name">
@@ -38,7 +38,7 @@ const Browse = () => {
                             </div>
                             <div className="container browse-inner">
                                 <div className="container browse-profile-picture">
-                                    <img src={placeholder2} class="rounded float-left"/>
+                                    <img src={placeholder2} class="rounded float-left" alt="description of image"/>
                                 </div>
                                 <div className="container browse-profile-summary">
                                     <h1 className="browse-name">
