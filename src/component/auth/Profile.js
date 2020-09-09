@@ -1,11 +1,12 @@
 import React from 'react';
 import placeholder from "../../img/placeholder.png";
+import {Link} from "react-router-dom";
 
 const Profile = () => {
 
     return (
-        <div className={"register"}>
-            <div className={"container"}>
+        <div className="profile">
+            <div className="container">
                 <div className={"row"}>
                     <div className="col-mid-8 m-auto">
                         <h1 className="display-4 text-center">Anuja Nautreel's Flex page</h1>
@@ -33,6 +34,18 @@ const Profile = () => {
                                 </div>
                             </div>
                         </div>
+                        <p>
+
+                        </p>
+                        <Link to="/profile" className={"btn btn-lg btn-info mr-2"}>
+                            Edit
+                        </Link>
+                        <Link to="/profile" className={"btn btn-lg btn-info mr-2"}>
+                            Upload
+                        </Link>
+                        <Link to="/profile" className={"btn btn-lg btn-info mr-2"}>
+                            MySpace
+                        </Link>
                         <p>
 
                         </p>
